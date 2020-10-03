@@ -1,0 +1,44 @@
+body{
+	background-color: lightpink;
+}
+#mainNavbar{
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+h2{
+	color:red;
+	font-weight: 100;
+	font-size: 2rem;
+	
+}
+p{
+	color:	#FF1493;
+	height: 2;
+	font-size: 1rem;
+}
+.content{
+	margin-top: 50px;
+}
+
+#mainNavbar .navbar-brand{
+	color:red;
+}
+#mainNavbar .nav-link{
+	color:white;
+}
+#mainNavbar .nav-link:hover {
+	color:red;
+}
+#heading span{
+	color:red;
+}
+#heading h1{
+	font-weight: 100;
+	font-size: 3rem;
+}
+@media (max-width: 1200px){
+	#heading h1{
+		font-size: 2rem;
+		font-weight: 100;
+	}
+}
